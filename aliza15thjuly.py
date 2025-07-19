@@ -4,6 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 from faker import Faker
 fake=Faker()
+def test_registration_valid():
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://tutorialsninja.com/demo/index.php?route=account/register")
